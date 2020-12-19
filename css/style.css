@@ -1,0 +1,439 @@
+/* External CSS */
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+/*defaul CSs*/
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Poppins', sans-serif;
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+	font-family: 'Roboto', sans-serif;
+}
+p{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+.section-padding-top{
+	padding-top: 100px;
+}
+.section-padding-bottom{
+	padding-bottom: 100px;
+}
+/*--Header Section CSS Starts--*/
+.container{
+	/*width: 1300px;*/
+	padding: 0 90px;
+	margin: 0 auto;
+	height: 10vw;
+	width: 100vw;
+}
+.container:before,
+after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.col-25{
+    width: 25%;
+    padding: 0 15px;
+    float: left;
+}
+.col-33{
+    width: 33%;
+    padding: 0 15px;
+    float: left;
+}
+.col-50{
+    width: 50%;
+    padding: 0 15px;
+    float: left;
+}
+.col-60{
+    width: 60%;
+    padding: 0 15px;
+    float: left;
+}
+.col-75{
+    width: 75%;
+    padding: 0 15px;
+    float: left;
+}
+.col-100{
+    width: 100%;
+    padding: 0 15px;
+    float: left;
+}
+/*header-top parts1 stars*/
+.header-top1{
+	background: #000;
+    width: 100%;
+    height: 50px;
+    position: relative;
+    height: 80px;
+    float: left;
+    padding: 18px 0px 10px;
+
+}
+.contact_part1{
+	width: 400px;
+	float: left;
+	margin-top: 13px;
+}
+.contact1{
+	color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    display: block;
+    
+}
+.contact1 i{
+	margin-right: 5px;
+}
+.contact1 ul{
+	margin:0;
+	padding: 0;
+	list-style: none;
+}
+.contact_part1 ul li {
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+}
+.contact1 ul li a{
+	color: #fff;
+}
+.contact_part1 ul li:hover{
+	color: #ff3121;
+}
+.contact_part1 ul li span i {
+    color: #ff3115;
+    margin-right: 2px;
+}
+
+.main_manu1{
+	float: right;
+	padding: -10px 0px;
+}
+.main_manu1 ul{
+	margin:0;
+	padding: 0;
+	list-style: none;
+}
+.main_manu1 ul li{
+	display: inline-block;
+	padding: 20px 20px;
+}
+.main_manu1 ul li span a{
+	color: #ff3115;
+}
+
+.main_manu1 ul li a{
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;
+	display: block;
+}
+.main_manu1 ul li a:hover{
+	color: #ff3115;
+}
+.main_manu1 ul li ul {
+    background: #fff;   
+}
+.main_manu1 ul li ul li a {
+    background: #fff;
+    font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #434343;
+}
+
+.main_manu1 ul li ul li{
+	width: 100px;
+    margin-bottom: 20px;
+    display: none;
+    padding: 0px;
+
+}
+.main_manu1 ul li:hover ul li{
+	display: block;
+	
+}
+
+/*header-top parts1 ends*/
+
+.header-top2{
+	background: #fff;
+	height: 175px;
+	
+}
+.logo_part {
+    margin-top: 33px;
+}
+.logo_part img{
+	height: 30px;
+}
+
+.main_manu{
+	float: right;
+	padding: 25px 0px;
+}
+.main_manu ul{
+	margin:0;
+	padding: 0;
+	list-style: none;
+}
+.main_manu ul li{
+	display: inline-block;
+	padding: 20px 20px;
+}
+.main_manu ul li a{
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #212121;
+	display: block;
+}
+.main_manu ul li a:hover{
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #ff3121;
+	display: block;
+}
+.main_manu ul li a:hover{
+	color: #ff3121;
+}
+
+span{
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #929292;
+}
+/*--Header Section CSS Ends--
+/*--Home Section CSS starts--*/
+.home-part{
+	background-image: url(../images/slider1.jpg);
+	width: 100%;
+	height: 800px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.home-left {
+    position: absolute;
+    top: 25%;
+}
+.home-left h2{
+font-size: 35px;
+ color: #ff3115;
+}
+.home-left h1{
+	font-size: 75px;
+    color: #fff;
+    
+
+}
+.home-left p{
+	font-size: 20px;
+    color: #fff;
+    
+
+}
+.btn{
+	margin-top: 20px;
+}
+.btn a{
+	padding: 15px 40px;
+}
+.home-left .btn1 a{
+	font-size: 14px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 105%;
+    color: #fff;
+    background: #ff3115;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+.btn2 a {
+    top: 105%;
+    color: #ff3115;
+    background: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    position: absolute;
+    left: 25%;
+    border-radius: 20px;
+}
+.home-left .btn a:hover{
+    color: #fff;
+    transition: all linear.5s;
+}
+/*--Home Section CSS Ends--*/
+/*--about Section CSS Starts--*/
+.about-part{
+	background-image: url(../images/h1-birds.png);
+	width: 100%;
+	height: 800px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.about-left{
+	position: absolute;
+	top: 30%;
+	cursor: pointer;
+    transition: .3s;
+    overflow: hidden;
+}
+.about-left:hover{
+	transform: scale(1.1);
+	transition: .3s;
+}
+.about-left a{
+	position: absolute;
+	top: 43%;
+    left: 47%;
+}
+.about-left a i{
+	width: 10px;
+	height: 10px;
+	font-size: 84px;
+    color: #fff;
+}
+.about-right{
+	position: absolute;
+	top: 36%;
+    right: 2%;
+}
+.about-right h1{
+	font-size: 30px;
+    color: #212121;
+    line-height: 40px;
+}
+.about-right h3{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+    color: #505050;
+    line-height: 26px;
+    text-transform: capitalize;
+}
+.about-right p{
+	font-size: 14px;
+	color: #505050;
+	line-height: 26px;
+}
+
+/*--about Section CSS Ends--*/
+/*--Icon Section CSS starts--*/
+.icon-part{
+	background-image: url(../images/bg3.jpg);
+	width: 100%;
+	height: 300px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.icon-item {
+    text-align: center;
+    margin-top: 70px;
+}
+.icon{
+	font-size: 45px;
+    color: #ff3115;
+}
+.icon-item h3 {
+    font-size: 40px;
+    color: #fff;
+}
+.icon-item h4 {
+    font-size: 20px;
+    color: #fff;
+    line-height: 30px;
+}
+/*--Icon Section CSS Ends--*/
+/*--category-item Section CSS starts--*/
+section.category-all-item .section-padding-top{
+	padding-top: 100px;
+}
+.section-heading{
+	text-align: center;
+}
+.section-heading h1 {
+    color: #212121;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.section-heading h1 span {
+	font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: #ff3121;
+    line-height: 40px;
+}
+.section-heading p {
+    font-size: 16px;
+    padding: 2px 0 10px 0;
+    color: #505050;
+    line-height: 26px;
+}
+.category-all-item{
+	background: #f9f9f9;
+    height: 1136px;
+}
+.category-title{
+	background: #f2f2f2;
+    text-align: center;
+    border: 1px solid#cdd;
+    padding: 71px 20px;
+}
+.category-title:hover{
+	border: 1px solid#ff3115;
+}
+.category-title h4{
+	font-size: 20px;
+    color: #212121;
+    line-height: 30px;
+}
+.category-title p{
+	font-size: 14px;
+    font-weight: 400;
+    color: #505050;
+    line-height: 26px;
+}
+.category-item{
+padding-top: 80px;
+}
+/*--category-item Section CSS Ends--*/
